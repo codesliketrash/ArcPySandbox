@@ -24,4 +24,4 @@ try:
 	arcpy.CopyRows_management("Parcels_lyr",r"C:\EsriPress\GISTPython\Data\\" + fcName + "_MailList.dbf")
 	arcpy.SelectLayerByLocation_management("Parcels_lyr", "INTERSECT",r"C:\EsriPress\GISTPython\MyExercises\Scratch\TemporaryStorage.gdb\LightsBuffered")
 except:
-	print "Your script has failed miserably"
+	print "Your script has  encountered an error, please check the syntax and try again"
