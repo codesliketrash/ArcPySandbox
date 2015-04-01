@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Delaware Valley Regional Planning Commission</origin>
+				<pubdate>03/2012</pubdate>
+				<title>Commuter Rail Lines within the Greater Philadelphia Region</title>
+				<geoform>vector digital data</geoform>
+				<onlink>Server=dvrpc_db; Service=5151/TCP; Database=dvrpc_db; User=dvrpc; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Spatial representation of all passenger rail lines in the DVRPC region.</abstract>
+			<purpose>To be used for planning purposes.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>03/2012</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-75.768016</westbc>
+				<eastbc>-74.613615</eastbc>
+				<northbc>40.344457</northbc>
+				<southbc>39.648824</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<place>
+				<placekey>DVRPC</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>Pennsylvania</placekey>
+			</place>
+			<stratum>
+			</stratum>
+			<temporal>
+			</temporal>
+			<theme><themekey>Commuter Rail</themekey><themekey>Transportation</themekey></theme></keywords>
+		<accconst>Must contact DVRPC.</accconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>William Stevens</cntper>
+					<cntorg>Delaware Valley Regional Planning Commission</cntorg>
+				</cntperp>
+				<cntpos>GIS Manager</cntpos>
+				<cntaddr>
+				</cntaddr>
+				<cntemail>wstevens@dvrpc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Recipients of DVRPC digital files are encouraged to credit DVRPC as the source of the data when producing maps, graphics, or other documents that utilize DVRPC files.</datacred>
+		<secinfo>
+		</secinfo>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</native>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<procstep><procdesc>Original linework received from various sources. Linework was adjusted and merged together to form seemless regional coverage. Lines have been orthorectified where possible.</procdesc></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>String</sdtstype>
+				<ptvctcnt>58</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000100</absres>
+						<ordres>0.000100</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+				<gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>18</utmzone><transmer><sfctrmer>0.999600</sfctrmer><longcm>-75.000000</longcm><latprjo>0.000000</latprjo><feast>500000.000000</feast><fnorth>0.000000</fnorth></transmer></utm></gridsys></planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altres>1.000000</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>DVRPC_CommuterRail</enttypl>
+			</enttyp>
+			<attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>OPERATOR</attrlabl>
+				<attrdef>Operator of rail line</attrdef>
+				<attrdefs>DVRPC</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LINE_NAME</attrlabl>
+				<attrdef>Official rail line name</attrdef>
+				<attrdefs>DVRPC</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TYPE</attrlabl>
+				<attrdef>Type of rail line</attrdef>
+				<attrdefs>DVRPC</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr><attrlabl>CO_NAME</attrlabl><attrdef>County name line segment resides</attrdef><attrdefs>DVRPC</attrdefs></attr><attr><attrlabl>STATE</attrlabl><attrdef>State</attrdef></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>William Stevens</cntper>
+					<cntorg>DVRPC</cntorg>
+				</cntperp>
+				<cntpos>GIS Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>190 N. Independence Mall West</address>
+					<city>Philadelphia</city>
+					<state>PA</state>
+					<postal>19106-1520</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>215-592-1800</cntvoice></cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>The Delaware Valley Regional Planning Commission (DVRPC) excludes any and all implied warranties of merchantability and fitness.  No guarantees are expressed or implied as to the use or application of the digital information supplied.  DVRPC assumes no responsibility to maintain them in any manner or form.  DVRPC will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the material supplied, or arising out of any inaccuracy or defect in the digital information supplied.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.000</transize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20110712</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Delaware Valley Regional Planning Commission</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>190 N. Independence Mall West</address>
+					<city>Philadelphia</city>
+					<state>PA</state>
+					<postal>19106-1520</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>215-592-1800</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+	</metainfo>
+	<dataIdInfo><envirDesc>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</envirDesc><dataLang><languageCode value="en"/></dataLang><idCitation><resTitle>DVRPC.DVRPC_CommuterRail</resTitle><presForm><PresFormCd value="005"/></presForm></idCitation><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL>434770.192</westBL><eastBL>532815.7515</eastBL><northBL>4465989.7136</northBL><southBL>4389057.4399</southBL><exTypeCode>1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL>-75.768016</westBL><eastBL>-74.613615</eastBL><northBL>40.344457</northBL><southBL>39.648824</southBL><exTypeCode>1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode value="en"/></mdLang><mdStanName>ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer>DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdHrLvName>dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc>002</orDesc><linkage>Server=dvrpc_db; Service=5151/TCP; Database=dvrpc_db; User=dvrpc; Version=SDE.DEFAULT</linkage><protocol>ArcSDE Connection</protocol></onLineSrc><transSize>0.140</transSize></distorTran><distorFormat><formatName>SDE Feature Class</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode>NAD_1983_UTM_Zone_18N</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd value="001"/></topLvl><geometObjs><geoObjTyp><GeoObjTypCd value="001"/></geoObjTyp><geoObjCnt>58</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt>20110712</mdDateSt><Esri><CreaDate>20150401</CreaDate><CreaTime>08411800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\KLUDGES-PC\C$\EsriPress\philly\philly.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps></DataProperties></Esri></metadata>
